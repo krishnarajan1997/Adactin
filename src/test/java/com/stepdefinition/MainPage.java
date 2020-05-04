@@ -17,6 +17,7 @@ public class MainPage extends BaseClass {
 		launchBrowser();
 		launchUrl("http://adactin.com/HotelApp/index.php");
 		winMaximize();
+		System.out.println("hello");
 	}
 
 	@When("user enter the username and password")
