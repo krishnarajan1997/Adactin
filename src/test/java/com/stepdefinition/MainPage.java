@@ -14,6 +14,7 @@ public class MainPage extends BaseClass {
 
 	@Given("user in the login page")
 	public void user_in_the_login_page() {
+		System.out.println("krishna");
 		if (true) {
 			
 		}
@@ -147,5 +148,5 @@ public class MainPage extends BaseClass {
 		getTheAttribute(xpath);
 
 	}
-
+ 
 }
