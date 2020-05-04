@@ -18,6 +18,9 @@ public class MainPage extends BaseClass {
 		if (true) {
 			
 		}
+
+		System.out.println("vishnu");
+		System.out.println("vishnu1");
 		launchBrowser();
 		launchBrowser();
 		launchUrl("http://adactin.com/HotelApp/index.php");
