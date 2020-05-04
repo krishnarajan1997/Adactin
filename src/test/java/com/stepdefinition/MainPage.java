@@ -15,6 +15,7 @@ public class MainPage extends BaseClass {
 	@Given("user in the login page")
 	public void user_in_the_login_page() {
 		launchBrowser();
+		launchBrowser();
 		launchUrl("http://adactin.com/HotelApp/index.php");
 		winMaximize();
 		System.out.println("hello");
